@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Fix</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header-wrapper">
+        <a class="bundar" href="#"><i class="bi bi-arrow-up"></i></a>
+        <!-- TOPBAR -->
+        <div class="topbar-inner py-2">
+            <div class="container d-flex justify-content-between">
+                <div>
+                    <i class="bi bi-envelope"></i> example@gmail.com
+                    <i class="bi bi-telephone ms-3"></i> +01234567890
+                </div>
+                <div>
+                    <i class="bi bi-facebook me-2"></i>
+                    <i class="bi bi-twitter me-2"></i>
+                    <i class="bi bi-instagram me-2"></i>
+                    <i class="bi bi-linkedin"></i>
+                </div>
+            </div>
+        </div>
+        <!-- NAVBAR -->
+        <div class="navbar-inner">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="ex-navbar-brand" href="index.html">Environs</a>
+                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-start" id="navMenu">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="causes.html">Causes</a></li>
+                            <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                                    Pages
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-success">
+                                    <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                                    <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
+                                    <li><a class="dropdown-item" href="volunteer.html">Volunteer</a></li>
+                                    <li><a class="dropdown-item" href="donation.html">Donation</a></li>
+                                    <li><a class="dropdown-item" href="404.html">404 Error</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Lihat Semua</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        </ul>
+                        <button class="btn btn-success rounded-0" href="#">Donate</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="hero">
+                    <div class="overlay d-flex flex-column justify-content-center align-items-center text-center">
+                        <h1 class="tengu text-white fw-bold mb-5">
+                            Aksi Nyata untuk Lingkungan</h1>
+                        <p class="text-white fs-5">Mulai dari hal sederhana, bersama kita jaga alam tetap lestari.
+                        </p>
+                        <button class="btn btn-success btn-lg rounded-0 mt-4">Ayo Bertindak</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="hero-2">
+                    <div class="overlay d-flex flex-column justify-content-center align-items-center text-center">
+                        <p class="reki text-white mt-3">PROTECT OUR SEAS
+                        </p>
+                        <h1 class="tengu text-white fw-bold mb-4">
+                            Save Our Ocean</h1>
+                        <p class="text-white fs-5">Kehidupan laut tergantung pada tindakan kita terhadap laut.</p>
+                        <button class="btn btn-success btn-lg rounded-0 mt-4">Bergabung Sekarang</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="hero-3">
+                    <div class="overlay d-flex flex-column justify-content-center align-items-center text-center">
+                        <p class="reki  text-white mb-2 ">
+                            EDUKASI LINGKUNGAN
+                        </p>
+                        <h1 class="text-white fw-bold mb-5">
+                            Belajar dan Jaga Lingkungan</h1>
+                        <p class="text-white fs-5">Menanamkan kebiasaan peduli lingkungan dalam kehidupan sehari-hari.
+                        </p>
+                        <button class="btn btn-success btn-lg rounded-0 mt-4">Mulai Aksi</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="content container">
+        <div class="row align-items-start mt-5">
+            <!-- Gambar -->
+            <div class="col-12 col-md-6 d-flex justify-content-center">
+                <img src="gambar/eco.jpeg" alt="affa" class="img-fluid w-100">
+            </div>
+            <!-- Text -->
+            <div class="col-md-6">
+                <p class="fw-bold mb-2" style="color: #62c278;">ABOUT US</p>
+
+                <h2 class="fw-semibold mb-3" style="font-family: Arial, Helvetica, sans-serif;">
+                    Tujuan Kami Untuk Melestarikan Alam
+                </h2>
+
+                <p class="text-muted mb-4" style="text-align: justify;">
+                    Kami bertujuan melestarikan alam, menjaga kebersihan lingkungan,
+                    serta meningkatkan kesadaran masyarakat akan pentingnya
+                    melindungi bumi demi masa depan yang lebih hijau, sehat,
+                    dan berkelanjutan.
+                </p>
+
+                <!-- Box About Mission Vision -->
+                <div style="background-color: #e0f0e4;" class="p-3 mt-2">
+                    <div class="info-box m-0 p-3">
+
+                        <!-- Tabs -->
+                        <ul class="nav nav-pills mb-4" id="infoTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active mt-2 rounded-0" data-bs-toggle="pill"
+                                    data-bs-target="#about" type="button">
+                                    About
+                                </button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link mt-2 rounded-0" data-bs-toggle="pill" data-bs-target="#mission"
+                                    type="button">
+                                    Mission
+                                </button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link mt-2 rounded-0" data-bs-toggle="pill" data-bs-target="#vision"
+                                    type="button">
+                                    Vision
+                                </button>
+                            </li>
+                        </ul>
+
+                        <!-- Content -->
+                        <div class="tab-content">
+                            <div class="tab-pane fade show active" id="about">
+                                <h4 class="fw-bold">TENTANG KAMI</h4>
+                                <p style="text-align: justify; margin-top: -5px;">
+                                    Mengurangi dampak pemanasan global melalui aksi
+                                    penanaman hutan kembali.
+                                </p>
+                            </div>
+
+                            <div class="tab-pane fade" id="mission">
+                                <h4 class="fw-bold">MISI KAMI</h4>
+                                <p style="text-align: justify; margin-top: -5px;">
+                                    Mendorong masyarakat untuk lebih peduli terhadap
+                                    lingkungan melalui edukasi pelestarian sumber daya alam.
+                                </p>
+                            </div>
+
+                            <div class="tab-pane fade" id="vision">
+                                <h4 class="fw-bold">VISI KAMI</h4>
+                                <p style="text-align: justify; margin-top: -5px;">
+                                    Mewujudkan bumi yang hijau, bersih, dan sehat
+                                    untuk generasi sekarang maupun masa depan.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Button -->
+                        <button class="btn btn-success mt-3 fw-bold rounded-0">
+                            Read More
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container-plenger bg-secondary-subtle text-secondary-emphasis">
+            <br>
+            <p class="tulisan fw-semibold ">WHAT WE DO
+            </p>
+            <h3 class=" text-center mx-auto mt-2" style="line-height: 1.4; max-width: 650px; margin-top: -20px;">Langkah
+                Bersama Demi Masa
+                Depan
+                Lingkungan yang
+                Lebih Baik
+            </h3>
+            <br>
+            <div class="container py-5">
+                <div class="row g-4">
+                    <!-- CARD 1 -->
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <div class="card-simple">
+                            <div class="card-img card-1">
+                                <h4 class="card-heading">Penggalangan Dana</h4>
+                            </div>
+                            <p class="card-text">
+                                Mengumpulkan dukungan finansial secara transparan untuk membiayai proyek
+                                penghijauan.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- CARD 2 -->
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <div class="card-simple">
+                            <div class="card-img card-2">
+                                <h4 class="card-heading">Kemitraan Strategis</h4>
+                            </div>
+                            <p class="card-text">
+                                Bekerja sama dengan pemerintah dan sektor swasta untuk lingkungan.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- CARD 3 -->
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <div class="card-simple">
+                            <div class="card-img card-3">
+                                <h4 class="card-heading">Ekowisata Terpadu</h4>
+                            </div>
+                            <p class="card-text">
+                                Menyediakan tur edukasi alam untuk meningkatkan kesadaran.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- CARD 4 -->
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <div class="card-simple">
+                            <div class="card-img card-4">
+                                <h4 class="card-heading">Konservasi Satwa</h4>
+                            </div>
+                            <p class="card-text">
+                                Melindungi habitat hewan liar dari kerusakan lingkungan.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mb-10">
+                    <button type="button" class="btn btn-success rounded-0">Read More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <br>
+    <div class="container py-4 mt-3">
+        <p class="tulisan fw-semibold text-center mt-3">
+            DONATION
+        </p>
+        <h3 class="kata text-center mb-4">
+            Uang Anda akan menyelamatkan hidup kami.
+        </h3>
+        <div class="row justify-content-center mb-4">
+            <div class="col-12 col-md-4">
+                <div class="card-custom card-1">
+                    <div class="card-content">
+                        <h3 class="card-title text-white">Bantu Kami Lebih Banyak</h3>
+                        <br>
+                        <h5 class="text-light mt-2">Melindungi Lingkungan</h5>
+                        <p class="card-body text-white">
+                            Bersama mendukung pendanaan untuk kegiatan penghijauan dan pemulihan
+                            lingkungan demi masa depan bumi yang lebih sehat.
+                        </p>
+                        <a href="#" class="btn btn-success">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card-custom card-2">
+                    <div class="card-content">
+                        <h3 class="card-title text-white">Bantu Kami Lebih Banyak</h3>
+                        <br>
+                        <h5 class="text-light mt-2">Melindungi Lingkungan</h5>
+                        <p class="card-body text-white">
+                            Bersama mendukung pendanaan untuk kegiatan penghijauan dan pemulihan
+                            lingkungan demi masa depan bumi yang lebih sehat.
+                        </p>
+                        <a href="#" class="btn btn-success">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card-custom card-3">
+                    <div class="card-content">
+                        <h3 class="card-title text-white">Bantu Kami Lebih Banyak</h3>
+                        <br>
+                        <h5 class="text-light mt-2">Melindungi Lingkungan</h5>
+                        <p class="card-body text-white">
+                            Bersama mendukung pendanaan untuk kegiatan penghijauan dan pemulihan
+                            lingkungan demi masa depan bumi yang lebih sehat.
+                        </p>
+                        <a href="#" class="btn btn-success">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-center mt-3">
+        <button type="button" class="btn btn-success rounded-0 mb-4">All Donation</button>
+    </div>
+    <br>
+    <div class="container-fluid">
+        <section class="achievement">
+            <div class="overlay-a">
+                <h5 class="sub mb-5">ACHIEVEMENTS</h5>
+                <p class="desc mb-5">
+                    Berhasil berkontribusi dalam berbagai kegiatan pelestarian lingkungan
+                </p>
+                <div class="cards">
+                    <div class="card-glass">
+                        <i class="bi bi-hand-thumbs-up"></i>
+                        <h5>Beavers Saved</h5>
+                        <button class="btn-glass">
+                            <span class="counter" data-target="3600">0</span> +
+                        </button>
+                    </div>
+                    <div class="card-glass">
+                        <i class="bi bi-cash-stack"></i>
+                        <h5>Funds Collected</h5>
+                        <button class="btn-glass">
+                            <span class="counter" data-target="513">0</span> $
+                        </button>
+                    </div>
+                    <div class="card-glass">
+                        <i class="bi bi-person"></i>
+                        <h5>Volunteer</h5>
+                        <button class="btn-glass">
+                            <span class="counter" data-target="713">0</span> +
+                        </button>
+                    </div>
+                    <div class="card-glass">
+                        <i class="bi bi-heart"></i>
+                        <h5>Days of Help</h5>
+                        <button class="btn-glass">
+                            <span class="counter" data-target="487">0</span> +
+                        </button>
+                    </div>
+                </div>
+                <button class="join-btn">Join With Us</button>
+            </div>
+    </div>
+    </section>
+    <br>
+    <div class="container py-5">
+        <h6 class="tulisan-1 fw-semibold justify-content-center">
+            RECENT CAUSES
+        </h6>
+        <h3 class="kata fw-semibold mt-2">Lingkungan Membutuhkan Perlindungan dari Kita</h3>
+        <p class="kalimat">Dengan kesadaran dan kepedulian bersama, kita dapat menciptakan
+            lingkungan yang lebih bersih, sehat, dan nyaman untuk ditinggali. Mari mulai dari diri sendiri, karena
+            perubahan besar selalu berawal dari langkah kecil.</p>
+        <br>
+        <div class="container mt-5">
+            <div class="row g-4">
+                <!-- CARD 1 -->
+                <div class="col-6 col-md-3">
+                    <div class="card-wrapper">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="gambar/demo-2.jpg">
+                                </div>
+                                <div class="flip-card-back">
+                                    <img src="gambar/demo-2.jpg">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-a">
+                            <div class="my-progress-bar">
+                                <div class="progress-1">
+                                    <span>75%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="my-kotak">
+                            <h6 class="kutu">Meningkatkan Kepedulian Lingkungan</h6>
+                            <p class="teki">Kesadaran masyarakat dalam menjaga lingkungan akan menciptakan negara
+                                yang lebih bersih dan maju.
+                            </p>
+                            <button type="button" class="btn btn-success btn-primary rounded-0 btn-sm">Read
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARD 2 -->
+                <div class="col-6 col-md-3">
+                    <div class="card-wrapper">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="gambar/demo-1.jpg">
+                                </div>
+                                <div class="flip-card-back">
+                                    <img src="gambar/demo-1.jpg">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-a">
+                            <div class="my-progress-bar">
+                                <div class="progress-2">
+                                    <span>78%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="my-kotak">
+                            <h6 class="kutu">Mendukung Pendidikan dan Inovasi</h6>
+                            <p class="teki">Belajar dan mengembangkan teknologi ramah lingkungan membantu kemajuan
+                                bangsa di masa depan.
+                            </p>
+                            <button type="button" class="btn btn-success btn-primary rounded-0 btn-sm">Read
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARD 3 -->
+                <div class="col-6 col-md-3">
+                    <div class="card-wrapper">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="gambar/demo-4.jpg">
+                                </div>
+                                <div class="flip-card-back">
+                                    <img src="gambar/demo-4.jpg">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-a">
+                            <div class="my-progress-bar">
+                                <div class="progress-3">
+                                    <span>50%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="my-kotak">
+                            <h6 class="kutu">Menggunakan Sumber Daya Secara Bijak</h6>
+                            <p class="teki">Pemanfaatan energi dan sumber daya yang tepat akan menjaga keberlanjutan
+                                negara.
+                            </p>
+                            <br>
+                            <button type="button" class="btn btn-success btn-primary rounded-0 btn-sm">Read
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARD 4 -->
+                <div class="col-6 col-md-3">
+                    <div class="card-wrapper">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="gambar/demo-3.jpg">
+                                </div>
+                                <div class="flip-card-back">
+                                    <img src="gambar/demo-3.jpg">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-a">
+                            <div class="my-progress-bar">
+                                <div class="progress-4">
+                                    <span>65%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="my-kotak">
+                            <h6 class="kutu">Bergotong Royong Menjaga Lingkungan</h6>
+                            <p class="teki">
+                                Kerja sama masyarakat dalam menjaga kebersihan dan kelestarian alam memperkuat
+                                kemajuan negara.
+                            </p>
+                            <button type="button" class="btn btn-success btn-primary rounded-0 btn-sm">Read
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="py-5 bg-light" id="events">
+        <div class="container">
+            <div class="row align-items-center mb-4">
+                <div class="col-12 text-center position-relative">
+                    <h6 class="text-success fw-bold text-uppercase" style="letter-spacing: 1px;">upcoming events</h6>
+                    <h2 class="py-2 px-2 text-center fs-25 fw-bold mb-5" style="color: var(--dark-green)">
+                        Bantulah Kami Hari Ini, Karena Besok Mungkin Anda <br> yang Membutuhkan Lebih Banyak Bantuan!
+                    </h2>
+                    <div class="d-flex justify-content-between position-absolute start-0 end-0 px-2"
+                        style="top: 70%; z-index: 10;">
+                        <button class="btn btn-success rounded-0 nav-arrow" type="button"
+                            data-bs-target="#eventCarousel" data-bs-slide="prev">←</button>
+                        <button class="btn btn-success rounded-0 nav-arrow" type="button"
+                            data-bs-target="#eventCarousel" data-bs-slide="next">→</button>
+                    </div>
+                </div>
+            </div>
+            <div id="eventCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <div class="card-wrapper">
+                                    <div class="card border-0 h-100 shadow-sm text-white"
+                                        style="background-color: #43814d;">
+                                        <img src="https://i.pinimg.com/736x/98/68/e0/9868e0054df8a271071f00427551a93d.jpg"
+                                            class="card-img-top" alt="Event 1">
+                                        <div class="card-body p-4">
+                                            <div class="d-flex justify-content-between mb-3 small">
+                                                <span><i class="bi bi-geo-alt-fill"></i> Saranjana</span>
+                                                <span><i class="bi bi-calendar-event"></i> 10 Feb, 2050</span>
+                                            </div>
+                                            <h5 class="card-title fw-bold" style="color: #153015;">Cara Membuat Rencana
+                                                Kebersihan</h5>
+                                            <p class="card-text small">Menyusun rencana kebersihan dapat
+                                                dimulai dengan menentukan area yang perlu dibersihkan, membuat jadwal
+                                                rutin.</p>
+                                            <a href="#javascript:void(0)"
+                                                class="btn btn-light btn-sm rounded-0 text-success px-3 py-2 mt-3 fw-bold">Read
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 d-none d-md-block">
+                                <div class="card-wrapper">
+                                    <div class="card border-0 h-100 shadow-sm text-white"
+                                        style="background-color: #43814d;">
+                                        <img src="https://i.pinimg.com/1200x/1c/75/2d/1c752df90db48541a5d514dd1f123426.jpg"
+                                            class="card-img-top" alt="Event 2">
+                                        <div class="card-body p-4">
+                                            <div class="d-flex justify-content-between mb-3 small">
+                                                <span><i class="bi bi-geo-alt-fill"></i> Kota Surakarta</span>
+                                                <span><i class="bi bi-calendar-event"></i> 10 Feb, 2023</span>
+                                            </div>
+                                            <h5 class="card-title fw-bold" style="color: #153015;">Cara Membuat Rencana
+                                                Kebersihan</h5>
+                                            <p class="card-text small ">Menyusun rencana kebersihan dapat
+                                                dimulai dengan menentukan area yang perlu dibersihkan, membuat jadwal
+                                                rutin.</p>
+                                            <a href="#javascript:void(0)"
+                                                class="btn btn-light btn-sm rounded-0 text-success px-3 py-2 mt-3 fw-bold">Read
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 d-none d-md-block">
+                                <div class="card-wrapper">
+                                    <div class="card border-0 h-100 shadow-sm text-white"
+                                        style="background-color: #43814d;">
+                                        <img src="gambar/demo-5.jpg" class="card-img-top" alt="Event 3">
+                                        <div class="card-body p-4">
+                                            <div class="d-flex justify-content-between mb-3 small">
+                                                <span><i class="bi bi-geo-alt-fill"></i> Kota Surabaya</span>
+                                                <span><i class="bi bi-calendar-event"></i> 10 Feb, 2023</span>
+                                            </div>
+                                            <h5 class="card-title fw-bold" style="color: #153015;">Cara Membuat Rencana
+                                                Kebersihan</h5>
+                                            <p class="card-text small">Menyusun rencana kebersihan dapat
+                                                dimulai dengan menentukan area yang perlu dibersihkan, membuat jadwal
+                                                rutin.</p>
+                                            <a href="#javascript:void(0)"
+                                                class="btn btn-light btn-sm rounded-0 text-success px-3 py-2 mt-3 fw-bold">Read
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <div class="card-wrapper">
+                                    <div class="card border-0 h-100 shadow-sm text-white"
+                                        style="background-color: #43814d;">
+                                        <img src="gambar/demo-4.jpg" class="card-img-top" alt="Event 4">
+                                        <div class="card-body p-4">
+                                            <div class="d-flex justify-content-between mb-3 small">
+                                                <span><i class="bi bi-geo-alt-fill"></i> Kota Makassar</span>
+                                                <span><i class="bi bi-calendar-event"></i> 10 Feb, 2023</span>
+                                            </div>
+                                            <h5 class="card-title fw-bold" style="color: #153015;">Cara Membuat Rencana
+                                                Kebersihan</h5>
+                                            <p class="card-text small">Menyusun rencana kebersihan dapat
+                                                dimulai dengan menentukan area yang perlu dibersihkan, membuat jadwal
+                                                rutin.</p>
+                                            <a href="#javascript:void(0)"
+                                                class="btn btn-light btn-sm rounded-0 text-success px-3 py-2 mt-3 fw-bold">Read
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 d-none d-md-block">
+                                <div class="card-wrapper">
+                                    <div class="card border-0 h-100 shadow-sm text-white"
+                                        style="background-color: #43814d;">
+                                        <img src="https://i.pinimg.com/736x/aa/b3/23/aab3234a7765179f8b386a3f891cd384.jpg"
+                                            class="card-img-top" alt="Event 5">
+                                        <div class="card-body p-4">
+                                            <div class="d-flex justify-content-between mb-3 small">
+                                                <span><i class="bi bi-geo-alt-fill"></i> Kota Padang</span>
+                                                <span><i class="bi bi-calendar-event"></i> 30 Mar, 2023</span>
+                                            </div>
+                                            <h5 class="card-title fw-bold" style="color: #153015;">Cara Membuat Rencana
+                                                Kebersihan</h5>
+                                            <p class="card-text small">Menyusun rencana kebersihan dapat
+                                                dimulai dengan menentukan area yang perlu dibersihkan, membuat jadwal
+                                                rutin.</p>
+                                            <a href="#javascript:void(0)"
+                                                class="btn btn-light btn-sm rounded-0 text-success px-3 py-2 mt-3 fw-bold">Read
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 d-none d-md-block">
+                                <div class="card-wrapper">
+                                    <div class="card border-0 h-100 shadow-sm text-white"
+                                        style="background-color: #43814d;">
+                                        <img src="gambar/news-2.jpeg" class="card-img-top" alt="Event 6">
+                                        <div class="card-body p-4">
+                                            <div class="d-flex justify-content-between mb-3 small">
+                                                <span><i class="bi bi-geo-alt-fill"></i> Kota Banjarmasin</span>
+                                                <span><i class="bi bi-calendar-event"></i> 17 Feb, 2022</span>
+                                            </div>
+                                            <h5 class="card-title fw-bold" style="color: #153015;">Cara Membuat Rencana
+                                                Kebersihan</h5>
+                                            <p class="card-text small opacity-75">Menyusun rencana kebersihan dapat
+                                                dimulai dengan menentukan area yang perlu dibersihkan, membuat jadwal
+                                                rutin.</p>
+                                            <a href="#javascript:void(0)"
+                                                class="btn btn-light btn-sm rounded-0 text-success px-3 py-2 mt-3 fw-bold">Read
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </section>
+    </div>
+    <p class="tulisan fw-semibold ">LATEST NEWS &BLOG </p>
+    </p>
+    <h3 class=" text-center mx-auto mt-2" style="line-height: 1.4; max-width: 650px; margin-top: -20px;">Langkah
+        Help today because tomoroww you may be the one who needs more helping!
+    </h3>
+    <br>
+    <div class="container py-5">
+        <div class="row g-4">
+            <div class="container py-5">
+                <div class="row g-4">
+                    <!-- CARD 1 -->
+                    <div class="col-md-3">
+                        <div class="card-sapi">
+                            <div class="card-kata card-a">
+                                <div class="komen position-absolute bottom-0 start-0 w-100 text-white small p-2">
+                                    <i class="bi bi-calender-fill"></i>Dec 01, 2050
+                                    <span class="float-end gap-2">
+                                        <span>100 <i class="bi bi-heart-fill"></i></span>
+                                        <span>10 <i class="bi bi-chat-fill"></i></span>
+                                    </span>
+                                </div>
+                            </div>
+                            <p class="card-text">
+                                Mengumpulkan dukungan finansial secara transparan untuk proyek
+                                penghijauan.
+                            </p>
+                            <button type="button" class=" tombol btn btn-success btn-sm">Read More</button>
+                        </div>
+                    </div>
+                    <!-- CARD 2 -->
+                    <div class="col-md-3">
+                        <div class="card-sapi">
+                            <div class="card-kata card-b">
+                                <div class="komen position-absolute bottom-0 start-0 w-100 text-white small p-2">
+                                    <i class="bi bi-calender-fill"></i>Dec 01, 2050
+                                    <span class="float-end gap-2">
+                                        <span>100 <i class="bi bi-heart-fill"></i></span>
+                                        <span>10 <i class="bi bi-chat-fill"></i></span>
+                                    </span>
+                                </div>
+                            </div>
+                            <p class="card-text">
+                                Bekerja sama dengan pemerintah dan sektor swasta untuk lingkungan.
+                            </p>
+                            <button type="button" class=" tombol btn btn-success btn-sm">Read More</button>
+                        </div>
+                    </div>
+                    <!-- CARD 3 -->
+                    <div class="col-md-3">
+                        <div class="card-sapi">
+                            <div class="card-kata card-c">
+                                <div class="komen position-absolute bottom-0 start-0 w-100 text-white small p-2">
+                                    <i class="bi bi-calender-fill"></i>Dec 01, 2050
+                                    <span class="float-end gap-2">
+                                        <span>100 <i class="bi bi-heart-fill"></i></span>
+                                        <span>10 <i class="bi bi-chat-fill"></i></span>
+                                    </span>
+                                </div>
+                            </div>
+                            <p class="card-text">
+                                Menyediakan tur edukasi alam untuk meningkatkan kesadaran.
+                            </p>
+                            <button type="button" class=" tombol btn btn-success btn-sm">Read More</button>
+                        </div>
+                    </div>
+                    <!-- CARD 4 -->
+                    <div class="col-md-3">
+                        <div class="card-sapi">
+                            <div class="card-kata card-d">
+                                <div class="komen position-absolute bottom-0 start-0 w-100 text-white small p-2">
+                                    <i class="bi bi-calender-fill"></i>Dec 01, 2050
+                                    <span class="float-end gap-2">
+                                        <span>100 <i class="bi bi-heart-fill"></i></span>
+                                        <span>10 <i class="bi bi-chat-fill"></i></span>
+                                    </span>
+                                </div>
+                            </div>
+                            <p class="card-text">
+                                Melindungi habitat hewan liar dari kerusakan lingkungan.
+                            </p>
+                            <button type="button" class=" tombol btn btn-success btn-sm">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container py-5">
+        <h6 class="tulisan-1 fw-semibold justify-content-center">
+            OUR WORK
+        </h6>
+        <h3 class="kata fw-semibold mt-2">We consider environment welfare</h3>
+        <p class="kalimat">We consider environmental welfare as an essential part of our mission, encouraging
+            sustainable actions and mindful living to preserve nature for future generations.</p>
+        <br>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="gambar/gallery-1.jpeg" alt="">
+                <div class="text-contes">
+                    <h6>Beauty Of Life</h6>
+                    <p>Galery Life</p>
+                </div>
+                <div class="hero-overlay">
+                    <span class="icon-a"><i class="bi bi-plus-lg"></i></span>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1502781252888-9143ba7f074e?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="">
+                <div class="text-contes">
+                    <h6>Beauty Of Life</h6>
+                    <p>Galery Life</p>
+                </div>
+                <div class="hero-overlay">
+                    <span class="icon-a"><i class="bi bi-plus-lg"></i></span>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="gambar/gunungeverst.jpg" alt="">
+                <div class="text-contes-plenger">
+                    <h6>Beauty Of Life</h6>
+                    <p>Galery Life</p>
+                </div>
+                <div class="hero-overlay">
+                    <span class="icon"><i class="bi bi-plus-lg"></i></span>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1636990082492-2e41f3e51d7b?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="">
+                <div class="text-contes">
+                    <h6>Beauty Of Life</h6>
+                    <p>Galery Life</p>
+                </div>
+                <div class="hero-overlay">
+                    <span class="icon-a"><i class="bi bi-plus-lg"></i></span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="gambar/gallery-5.jpg" alt="">
+                <div class="text-contes">
+                    <h6>Beauty Of Life</h6>
+                    <p>Galery Life</p>
+                </div>
+                <div class="hero-overlay">
+                    <span class="icon-a"><i class="bi bi-plus-lg"></i></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- LIGHTBOX -->
+        <div id="lightbox">
+            <img id="lightbox-img">
+        </div>
+    </div>
+    <div class="latar box container py-1">
+        <div class="row align-items-center g-4">
+            <!-- KOLOM GAMBAR -->
+            <div class="col-md-6 d-flex justify-content-center">
+                <div class="img-area">
+                    <div class="single-img">
+                        <img src="https://images.unsplash.com/photo-1502685104226-ee32379fefbe" alt="">
+                        <div class="komen position-absolute bottom-0 start-0 w-100 text-white small p-2 text-center">
+                            <span class="fw-bold">Gina Ormos</span>
+                        </div>
+                    </div>
+                    <div class="single-img">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330" alt="">
+                        <div class="komen position-absolute bottom-0 start-0 w-100 text-white small p-2 text-center">
+                            <span class="fw-bold">Karolin Suling</span>
+                        </div>
+                    </div>
+                    <div class="single-img">
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e" alt="">
+                        <div class="komen position-absolute bottom-0 start-0 w-100 text-white small p-2 text-center">
+                            <span class="fw-bold">Michael Anderson</span>
+                        </div>
+                    </div>
+                    <div class="single-img">
+                        <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e" alt="">
+                        <div class="komen position-absolute bottom-0 start-0 w-100 text-white small p-2 text-center">
+                            <span class="fw-bold">Gary Cosmos </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="real col-md-6">
+                <p class="superman-text fw-bold mt-4 text-success">BECOME A VOLUNTEER?</p>
+                <h4 class="fw-semibold mb-3">
+                    Kami Peduli terhadap kesejahteraan Lingkungan
+                </h4>
+                <p class="text-muted mb-4" style="text-align: justify;">
+                    Kami berkomitmen untuk menjaga keseimbangan alam melalui tindakan nyata seperti mengurangi
+                    limbah,
+                    menghemat sumber daya, serta mendukung berbagai upaya pelestarian lingkungan. Dengan kesadaran
+                    dan
+                    kerja sama, kami berusaha menciptakan lingkungan yang bersih,sehat, dan berkelanjutan bagi
+                    semua.
+                </p>
+                <ul class="list-unstyled">
+                    <li><i class="bi bi-check-lg text-success fw-bold"></i> Kami bersahabat satu sama lain.</li>
+                    <li><i class="bi bi-check-lg text-success fw-bold"></i> Jika Anda bergabung dengan kami, kami
+                        akan
+                        memberikan pelatihan gratis.</li>
+                    <li><i class="bi bi-check-lg text-success fw-bold"></i> Ini adalah kesempatan untuk membantu
+                        lingkungan yang miskin.</li>
+                    <li><i class="bi bi-check-lg text-success fw-bold"></i> Tidak ada tujuan persyaratan</li>
+                    <li><i class="bi bi-check-lg text-success fw-bold"></i> Bergabung sepenuhnya gratis. Kami tidak
+                        membutuhkan uang sepeser pun dari Anda.</li>
+                </ul>
+                <button class="bnt btn-success mt-2 btn-sm">Join With Us</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <br>
+    <footer id="footer">
+        <div id="footer-main">
+            <div class="container">
+                <div class="row g-5">
+                    <!-- Newsletter -->
+                    <div class="col-md-3">
+                        <h6>Newsletter</h6>
+                        <p>Subscribe to our newsletter and stay updated on all our environmental programs and
+                            activities.</p>
+                        <div class="footer-newsletter d-flex mt-3">
+                            <input type="email" placeholder="Type your email..." />
+                            <button>Apply</button>
+                        </div>
+                    </div>
+                    <!-- Our Services -->
+                    <div class="col-md-3">
+                        <h6>Our Services</h6>
+                        <ul>
+                            <li><a href="#">Green Turtle</a></li>
+                            <li><a href="#">White Tiger</a></li>
+                            <li><a href="#">Social Ecology</a></li>
+                            <li><a href="#">Livestock</a></li>
+                            <li><a href="#">Beauty of Life</a></li>
+                            <li><a href="#">Protect for You</a></li>
+                        </ul>
+                    </div>
+                    <!-- Volunteer -->
+                    <div class="col-md-3">
+                        <h6>Volunteer</h6>
+                        <ul>
+                            <li><a href="#">Karen Dawson</a></li>
+                            <li><a href="#">Jack Simmons</a></li>
+                            <li><a href="#">Michael Linen</a></li>
+                            <li><a href="#">Gina Olsen</a></li>
+                            <li><a href="#">Millicent Channing</a></li>
+                            <li><a href="#">Caroline Suring</a></li>
+                        </ul>
+                    </div>
+                    <!-- Our Gallery -->
+                    <div class="col-md-3">
+                        <h6>Our Gallery</h6>
+                        <div class="footer-gallery">
+                            <img src="gambar/gallery-1.jpeg" alt="g1" />
+                            <img src="gambar/gunungeverst.jpg" alt="g2" />
+                            <img src="gambar/galllery-3.jpg" alt="" />
+                            <img src="gambar/pepohonan.jpeg" alt="g4" />
+                            <img src="gambar/gallery-5.jpg" alt="g5" />
+                            <img src="gambar/gallery-6.jpg" alt="g6" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer-bottom">
+            <div class="container d-flex justify-content-between align-items-center flex-wrap gap-2">
+                <div>
+                    <a href="#" class="text-success fw-bold text-decoration-none me-1"><i
+                            class="bi bi-leaf-fill me-1"></i>Environs</a>
+                    &copy; 2025. All Rights Reserved.
+                </div>
+                <div class="d-flex align-items-center mx-auto">
+                    <div class="footer-social">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-pinterest"></i></a>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                    <div class="boxi">
+                        <a href="#" class="me-2"><i class="bi bi-heart-fill text-danger"></i></a>
+                        <a href="#"><i class="bi bi-star-fill text-warning"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
